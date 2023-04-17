@@ -1,0 +1,20 @@
+[
+  { "name": "1", "customer_id": [1] },
+  { "name": "2", "customer_id": [2, 3] },
+  { "name": "3", "customer_id": [] },
+  { "name": "4", "customer_id": [] },
+  { "name": "5", "customer_id": [] },
+  { "name": "6", "customer_id": [] },
+  { "name": "7", "customer_id": [] },
+  { "name": "8", "customer_id": [] },
+  { "name": "9", "customer_id": [] },
+  { "name": "10", "customer_id": [] },
+  { "name": "11", "customer_id": [] },
+  { "name": "12", "customer_id": [] },
+  { "name": "13", "customer_id": [] },
+  { "name": "14", "customer_id": [] },
+  { "name": "15", "customer_id": [] },
+  { "name": "16", "customer_id": [] },
+  { "name": "17", "customer_id": [] },
+  { "name": "18", "customer_id": [] }
+]

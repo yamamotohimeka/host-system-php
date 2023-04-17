@@ -1,0 +1,127 @@
+[
+  {
+    "name": "烏龍茶",
+    "price": "300",
+    "cat": "drink"
+  },
+  {
+    "name": "緑茶",
+    "price": "300",
+    "cat": "drink"
+  },
+  {
+    "name": "コーラ",
+    "price": "400",
+    "cat": "drink"
+  },
+  {
+    "name": "オレンジジュース",
+    "price": "400",
+    "cat": "drink"
+  },
+  {
+    "name": "生ビール",
+    "price": "600",
+    "cat": "beer"
+  },
+  {
+    "name": "瓶ビール",
+    "price": "800",
+    "cat": "beer"
+  },
+  {
+    "name": "クラフトビール",
+    "price": "700",
+    "cat": "beer"
+  },
+  {
+    "name": "カシスオレンジ",
+    "price": "600",
+    "cat": "cocktail"
+  },
+  {
+    "name": "ジントニック",
+    "price": "600",
+    "cat": "cocktail"
+  },
+  {
+    "name": "モヒート",
+    "price": "600",
+    "cat": "cocktail"
+  },
+  {
+    "name": "カルーアミルク",
+    "price": "600",
+    "cat": "cocktail"
+  },
+  {
+    "name": "焼酎(グラス)",
+    "price": "600",
+    "cat": "shochu"
+  },
+  {
+    "name": "焼酎(ボトル)",
+    "price": "6800",
+    "cat": "shochu"
+  },
+  {
+    "name": "ウイスキー(ロック)",
+    "price": "1600",
+    "cat": "shochu"
+  },
+  {
+    "name": "シャンパンA",
+    "price": "40000",
+    "cat": "champagne"
+  },
+  {
+    "name": "シャンパンB",
+    "price": "108000",
+    "cat": "champagne"
+  },
+  {
+    "name": "赤ワインA",
+    "price": "18000",
+    "cat": "champagne"
+  },
+  {
+    "name": "赤ワインB",
+    "price": "40000",
+    "cat": "champagne"
+  },
+  {
+    "name": "フライドポテト",
+    "price": "1600",
+    "cat": "food"
+  },
+  {
+    "name": "フルーツ盛り合わせ",
+    "price": "4000",
+    "cat": "food"
+  },
+  {
+    "name": "シャンパンタワー",
+    "price": "30000",
+    "cat": "set"
+  },
+  {
+    "name": "ノーマルセット",
+    "price": "3000",
+    "cat": "set"
+  },
+  {
+    "name": "プレミアセット",
+    "price": "300000",
+    "cat": "set"
+  },
+  {
+    "name": "指名",
+    "price": "3000",
+    "cat": "etc"
+  },
+  {
+    "name": "VIP ROOM",
+    "price": "30000",
+    "cat": "etc"
+  }
+]

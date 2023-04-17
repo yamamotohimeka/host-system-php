@@ -1,0 +1,81 @@
+.tableTop {
+  .flex-row {
+    align-items: center;
+    gap: 60px;
+    @include tab {
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+  &-addLink {
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+  }
+  &__cx {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    @include tab {
+      flex-direction: column;
+      align-items: center;
+    }
+    &-name,
+    &-table {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    &-name {
+      &-input {
+        width: 220px;
+      }
+    }
+    &-table {
+      &-input {
+        width: 100px;
+      }
+    }
+    &-button {
+      width: 80px;
+    }
+  }
+  &__menu {
+    @include flex;
+    justify-content: flex-start;
+    gap: 17px;
+    @include pc {
+      gap: calc(17vw / (1280 / 100));
+    }
+    @include tab {
+      gap: calc(14vw / (768 / 100));
+    }
+    @include sp {
+      gap: calc(15vw / (440 / 100));
+    }
+    li {
+      width: 15.5%;
+      @include tab {
+        width: 32%;
+      }
+      @include sp {
+        width: 48%;
+      }
+      a {
+        @include flex-center;
+        height: 120px;
+        font-size: 28px;
+        text-align: center;
+        line-height: 1.4;
+        background: rgba($color: #fff, $alpha: 0.2);
+        border-radius: 8px;
+        @include tab {
+          flex-direction: column;
+        }
+      }
+
+      &.active a {
+        background: rgba($color: #fff, $alpha: 0.4);
+      }
+    }
+  }
+}

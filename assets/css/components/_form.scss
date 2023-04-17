@@ -1,0 +1,138 @@
+.form {
+  .flex-row {
+    gap: 12px 36px;
+    width: 600px;
+    @include tab {
+      justify-content: center;
+      width: 100%;
+    }
+    @include sp {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  &-input-button {
+    display: flex;
+    gap: 8px;
+    .inputButton {
+      width: 120px;
+    }
+    @include tab {
+      align-items: center;
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+  &-wrap {
+    @include flex-column;
+    gap: 40px;
+  }
+  &__contents {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    @include tab {
+      flex-direction: column;
+      gap: 16px;
+    }
+    .formLabel {
+      min-width: 200px;
+      font-size: 20px;
+      @include tab {
+        min-width: auto;
+      }
+    }
+    .hissu {
+      @include flex;
+      align-items: center;
+      @include tab {
+        gap: 16px;
+      }
+      &::after {
+        content: "必須";
+        color: #e60012;
+      }
+    }
+    .formInputSmall {
+      width: 92px;
+      @include sp {
+        width: 120px;
+      }
+    }
+    .formInputMedium {
+      width: 300px;
+      @include sp {
+        width: 100%;
+      }
+    }
+    .formInputLarge {
+      width: 600px;
+      @include tab {
+        width: 100%;
+      }
+    }
+    .formCheck {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      label {
+        font-size: 20px;
+      }
+      &-etc {
+        display: flex;
+        align-items: center;
+        label {
+          width: 96px;
+          font-size: 20px;
+        }
+      }
+    }
+    &-box {
+      display: flex;
+      gap: 14px;
+      @include sp {
+        justify-content: center;
+        width: 100%;
+      }
+      p {
+        align-self: flex-end;
+        font-size: 20px;
+      }
+    }
+  }
+  &-button {
+    width: 120px;
+    margin: 0 auto;
+  }
+  &__playerStatus {
+    h3 {
+      font-size: 20px;
+    }
+    &-select {
+      @include flex;
+      p {
+        width: 50%;
+        padding: 12px 0;
+        font-size: 20px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.2);
+      }
+      .selected {
+        background: #000;
+      }
+    }
+    &__plus,
+    &__minus,
+    &-per {
+      @include flex-column;
+      gap: 12px;
+    }
+    &__contents {
+      @include flex-center;
+      label {
+        min-width: 200px;
+        font-size: 20px;
+      }
+    }
+  }
+}

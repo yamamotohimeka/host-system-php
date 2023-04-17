@@ -1,0 +1,68 @@
+[
+  {
+    "name": "相馬琢磨",
+    "genname": "愛翔",
+    "position": "幹部補佐",
+    "height": "172",
+    "email": "manato@gmail.com",
+    "pass": "manato12345",
+    "blood": "A",
+    "sign": "蟹",
+    "line": "manato123",
+    "comment": "",
+    "hour": {
+      "hour_1": true,
+      "hour_2": false
+    },
+    "birth": {
+      "year": 1995,
+      "month": 5,
+      "day": 3
+    },
+    "tel": {
+      "number_1": 1235,
+      "number_2": 5678,
+      "number_3": 9101
+    },
+    "id_card": {
+      "driver": true,
+      "passport": false,
+      "health": true,
+      "student": false,
+      "mynumber": true,
+      "other": ""
+    },
+    "address": {
+      "address_1": "大阪府大阪市中央区日本橋1-17-17",
+      "address_2": ""
+    },
+    "type": {
+      "type_1": "タイプ1",
+      "type_2": "タイプ2",
+      "type_3": "タイプ3"
+    },
+    "salary": {
+      "Basic_salary": "180,000",
+      "simei_A": "2,000",
+      "simei_B": "3,000",
+      "douhan": "1,500",
+      "post_allowance": "0",
+      "kaikin_allowance": "0",
+      "deposit": "3,000",
+      "Dormitory": "30,000",
+      "back": "10"
+    }
+  },
+  {
+    "name": "佐藤剛",
+    "genname": "永遠",
+    "position": "主任",
+    "height": "168"
+  },
+  {
+    "name": "新誠",
+    "genname": "奏夢",
+    "position": "なし",
+    "height": "174"
+  }
+]

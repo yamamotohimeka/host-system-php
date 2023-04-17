@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "drink",
+    "name": "ソフトドリンク"
+  },
+  {
+    "slug": "beer",
+    "name": "ビール"
+  },
+  {
+    "slug": "cocktail",
+    "name": "カクテル"
+  },
+  {
+    "slug": "shochu",
+    "name": "焼酎</br>ウイスキー"
+  },
+  {
+    "slug": "champagne",
+    "name": "シャンパン</br>ワイン"
+  },
+  {
+    "slug": "food",
+    "name": "フード"
+  },
+  {
+    "slug": "set",
+    "name": "セットメニュー"
+  },
+  {
+    "slug": "etc",
+    "name": "etc..."
+  }
+]

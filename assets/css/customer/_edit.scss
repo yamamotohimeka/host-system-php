@@ -1,0 +1,26 @@
+.customerEdit {
+  &__contents {
+    li {
+      @include flex;
+      align-items: center;
+      padding: 16px 5%;
+      font-size: 20px;
+
+      @include tab {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 3%;
+        gap: 22px;
+      }
+      &:nth-of-type(2n-1) {
+        background: rgba($color: #fff, $alpha: 0.1);
+      }
+      .data {
+        width: 14%;
+      }
+      p {
+        width: 10%;
+      }
+    }
+  }
+}

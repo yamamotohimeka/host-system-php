@@ -1,0 +1,33 @@
+.moleculesSearch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  @include tab {
+    justify-content: center;
+  }
+  @include sp {
+    flex-wrap: wrap;
+  }
+  p {
+    font-size: 20px;
+  }
+  &-input {
+    width: 160px;
+  }
+  button {
+    @include flex-center;
+    gap: 12px;
+    font-size: 20px;
+    @include sp {
+      width: 100%;
+      margin-top: 8px;
+    }
+    &::after {
+      content: "";
+      width: 43px;
+      height: 43px;
+      background: url(../images/search-icon.png) no-repeat;
+      background-size: 100%;
+    }
+  }
+}

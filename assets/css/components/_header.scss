@@ -1,0 +1,45 @@
+.header {
+  padding: 32px 0;
+  background: rgba($color: #fff, $alpha: 0.1);
+  .flex {
+    align-items: center;
+    @include tab {
+      flex-direction: column;
+    }
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+    span {
+      display: block;
+      font-size: 26px;
+    }
+  }
+  h2 {
+    @include flex-center;
+    gap: 16px;
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+    @include tab {
+      align-self: flex-end;
+      margin-top: 16px;
+    }
+    .menu0 {
+      width: 60px;
+      height: 63px;
+    }
+    .menu1 {
+      width: 69px;
+      height: 58px;
+    }
+    .menu2 {
+      width: 64px;
+      height: 55px;
+    }
+    .menu3 {
+      width: 80px;
+      height: 51px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.tableDetail {
+  &-top {
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 0.1rem;
+  }
+  &__contents {
+    li {
+      @include flex;
+      align-items: center;
+      padding: 16px 5%;
+      font-size: 20px;
+      @include tab {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 3%;
+        gap: 22px;
+      }
+      &:nth-of-type(2n-1) {
+        background: rgba($color: #fff, $alpha: 0.1);
+      }
+      h3 {
+        width: 20%;
+        @include tab {
+          width: 100%;
+        }
+      }
+    }
+    &-in {
+      letter-spacing: 0.1rem;
+      @include tab {
+        width: 100%;
+      }
+    }
+    &-time {
+      letter-spacing: 0.1rem;
+      @include tab {
+        width: 100%;
+      }
+    }
+    &-buttonWrap {
+      @include flex-center;
+      gap: 8px;
+    }
+    &-button {
+      width: 80px;
+    }
+  }
+}

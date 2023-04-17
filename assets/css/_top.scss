@@ -1,0 +1,81 @@
+.top {
+  &__menu {
+    @include flex;
+    gap: 22px 0;
+    li {
+      width: 32%;
+      @include tab {
+        width: 48%;
+      }
+      a {
+        display: inline-block;
+        @include flex-center;
+        height: 160px;
+        gap: 16px;
+        font-size: 20px;
+        background: rgba($color: #fff, $alpha: 0.2);
+        border-radius: 8px;
+        @include tab {
+          flex-direction: column;
+        }
+      }
+      a::before {
+        content: "";
+      }
+      &:nth-of-type(1) a::before {
+        width: 60px;
+        height: 63px;
+        background: url(../images/menu0.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(2) a::before {
+        width: 69px;
+        height: 58px;
+        background: url(../images/menu1.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(3) a::before {
+        width: 64px;
+        height: 55px;
+        background: url(../images/menu2.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(4) a::before {
+        width: 80px;
+        height: 51px;
+        background: url(../images/menu3.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(5) a::before {
+        width: 48px;
+        height: 72px;
+        background: url(../images/menu4.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(6) a::before {
+        width: 74px;
+        height: 60px;
+        background: url(../images/menu5.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(7) a::before {
+        width: 61px;
+        height: 61px;
+        background: url(../images/menu6.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(8) a::before {
+        width: 77px;
+        height: 74px;
+        background: url(../images/menu7.png) no-repeat;
+        background-size: 100%;
+      }
+      &:nth-of-type(9) a::before {
+        width: 69px;
+        height: 70px;
+        background: url(../images/menu8.png) no-repeat;
+        background-size: 100%;
+      }
+    }
+  }
+}
